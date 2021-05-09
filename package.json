@@ -1,0 +1,14 @@
+{
+  "name": "hello-cli",
+  "version": "1.0.0",
+  "description": "project command line",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "test"
+  },
+"bin": {
+   "hello": "./bin/index.js"
+ },
+  "author": "kvykhrov",
+  "license": "ISC"
+}
