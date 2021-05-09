@@ -120,5 +120,5 @@ function encrypt(msg, key)
     return encMsg;
 }
 
-console.log(caesarShift("This is secret. Message about!", -7)); //should decode
-console.log(caesarShift("This is secret. Message about!", 7)); //should decode
+console.log(caesarShift("This is secret. Message about!", options.shift)); //should decode
+console.log(caesarShift("This is secret. Message about!", 0)); //should decode
