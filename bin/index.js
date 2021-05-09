@@ -17,7 +17,7 @@ const options = yargs
  .argv;
 
 
-//
+// пример
 
 function rot13(str) { // LBH QVQ VG!
   
