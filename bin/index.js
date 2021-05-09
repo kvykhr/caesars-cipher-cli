@@ -121,3 +121,5 @@ function encrypt(msg, key)
 
 console.log(caesarShift("This is secret. Message about!", options.shift)); //should decode
 console.log(caesarShift("This is secret. Message about!", 0)); //should decode
+
+//запись в файл .process.stdout.write(d + '\n');
