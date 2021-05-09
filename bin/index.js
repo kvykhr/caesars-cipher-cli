@@ -14,6 +14,7 @@ const options = yargs
  .usage("Usage: ")
  .option("a", { alias: "action", describe: "encode/decode", type: "string", demandOption: true })
  .option("s", { alias: "shift", describe: "shift value", type: "number", demandOption: true })
+ .option("o", { alias: "output", describe: "output", type: "string", demandOption: false })
  .argv;
 
 
@@ -121,5 +122,5 @@ function encrypt(msg, key)
 
 console.log(caesarShift("This is secret. Message about!", options.shift)); //should decode
 console.log(caesarShift("This is secret. Message about!", 0)); //should decode
-
-//запись в файл .process.stdout.write(d + '\n');
+// if(options.output)
+// запись в файл .process.stdout.write(d + '\n');
