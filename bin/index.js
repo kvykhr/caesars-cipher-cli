@@ -12,7 +12,6 @@ const yargs = require("yargs");
 
 const options = yargs
  .usage("Usage: ")
-
  .option("a", { alias: "action", describe: "encode/decode", type: "string", demandOption: true })
  .option("s", { alias: "shift", describe: "shift value", type: "number", demandOption: true })
  .argv;
