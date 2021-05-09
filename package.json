@@ -1,5 +1,5 @@
 {
-  "name": "hello-cli",
+  "name": "caesars-cipher-cli",
   "version": "1.0.0",
   "description": "project command line",
   "main": "bin/index.js",
@@ -7,7 +7,7 @@
     "test": "test"
   },
 "bin": {
-   "hello": "./bin/index.js"
+   "cipher-cli": "./bin/index.js"
  },
   "author": "kvykhrov",
   "license": "ISC"
